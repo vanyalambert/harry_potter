@@ -2,7 +2,7 @@
 
 An immersive, AI-powered interactive mystery game set in the magical world of Hogwarts. Players explore the castle, question suspects, and uncover clues through natural language dialogue powered by Large Language Models.
 
-## 🎮 Features
+## Features
 
 - **Dynamic Dialogue System**: AI-generated responses from NPCs based on player interactions
 - **Deterministic Actions**: Navigate locations (`go to library`), inspect objects (`inspect shimmer`)
@@ -10,7 +10,7 @@ An immersive, AI-powered interactive mystery game set in the magical world of Ho
 - **Beautiful UI**: Immersive Hogwarts-themed interface with magical styling
 - **Mock Mode**: Test the game without an API key using built-in mock responses
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 Harry_Potter/
@@ -24,7 +24,7 @@ Harry_Potter/
 └── README.md
 ```
 
-## 🚀 Quick Start
+## Quick Start
 
 ### Prerequisites
 
@@ -157,7 +157,7 @@ NPCS = {
 }
 ```
 
-## 🐛 Troubleshooting
+## Troubleshooting
 
 ### CORS Errors
 
@@ -221,7 +221,7 @@ Processes a player action.
 }
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Changing Colors
 
@@ -244,7 +244,7 @@ Edit the `SYSTEM_INSTRUCTION_BASE` and `build_llm_prompt()` function in `backend
 - [ ] Endgame accusation mechanics
 - [ ] Fine-tuned LLM models on HPAC dataset
 
-## 📄 License
+## License
 
 This project is for educational purposes.
 
