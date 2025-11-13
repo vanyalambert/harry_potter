@@ -96,7 +96,7 @@ Simply open `hogwarts-mystery-game.html` in your browser.
    - `talk to draco`
    - `ask evelyn about the artifact`
 
-## 🎯 Game Commands
+## Game Commands
 
 ### Deterministic Actions
 
@@ -114,7 +114,7 @@ Simply open `hogwarts-mystery-game.html` in your browser.
     - `ask evelyn where she was during the feast`
     - `speak with professor dumbledore`
 
-## 🔧 Configuration
+## Configuration
 
 ### Mock Mode vs. Real LLM
 
@@ -177,7 +177,7 @@ If you see CORS errors in the browser console:
 - Check the `BACKEND_URL` in `app.js` matches your backend URL
 - Look for errors in the browser console (F12 → Console tab)
 
-## 📝 API Endpoints
+## API Endpoints
 
 ### `POST /session/start`
 Creates a new game session.
@@ -235,7 +235,7 @@ Edit `styles.css` to customize the color scheme. Key color variables:
 
 Edit the `SYSTEM_INSTRUCTION_BASE` and `build_llm_prompt()` function in `backend/app.py` to change how NPCs respond.
 
-## 🚧 Future Enhancements
+## Future Enhancements
 
 - [ ] Persistent database storage (MongoDB/Firestore)
 - [ ] RAG integration for contextual evidence retrieval
